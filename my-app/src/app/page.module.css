@@ -1,0 +1,42 @@
+.container{
+
+width: 100vw;
+height: 100vh;
+background-color:  #00091a;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+}
+
+.container h1{
+
+font-size: 3rem;
+color: #e6eeff;
+width: 50%;
+text-align: center;
+
+}
+
+
+.container .link{
+
+width: 110px;
+height: 50px;
+text-decoration: none;
+background-color: #e6eeff;
+color: #00091a;
+border-radius: 10px;
+font-size: larger;
+margin: 20px;
+display: flex;
+align-items: center;
+justify-content:space-between;
+padding: 0px 10px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+

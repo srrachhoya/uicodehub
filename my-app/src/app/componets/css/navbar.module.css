@@ -1,0 +1,40 @@
+.navbar{
+
+background-color: transparent;
+height: 60px;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+padding: 20px;
+position: fixed;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+.logo{
+
+    color: #e6eeff;
+}
+
+
+.links{
+display: flex;
+
+width: 20%;
+justify-content: space-between;
+
+}
+
+.links .link{
+
+text-decoration: none;
+color: blueviolet;
+color: #e6eeff;
+font-size: 1.2rem;
+
+}
+
