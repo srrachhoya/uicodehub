@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiOutlineArrowRight} from 'react-icons/ai'
+import { AiOutlineArrowRight } from 'react-icons/ai'
 import { Roboto } from 'next/font/google'
 import styles from './page.module.css'
 import Link from 'next/link'
@@ -8,6 +8,10 @@ const roboto = Roboto({
   subsets: ['latin'],
 })
 
+const r2 = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 const page = () => {
   return (
@@ -16,9 +20,9 @@ const page = () => {
     <div className={styles.container}>
 
 
-      <h1 className={roboto.className}>Make Web development easy with us. Get ready to use UI components Pick and Use</h1>
+      <p className={r2.className}>Make Web development easy with us. Get ready to use UI components Pick and Use</p>
 
-      <Link href={'#'} className={styles.link + " " + roboto.className}>Explore <AiOutlineArrowRight/>
+      <Link href={'#'} className={styles.link + " " + r2.className}>Explore <AiOutlineArrowRight />
       </Link>
 
 

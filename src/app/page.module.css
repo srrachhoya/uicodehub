@@ -1,0 +1,60 @@
+.container {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #9400FF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+
+}
+
+.container p {
+
+    font-size: 3rem;
+    color: #E4F1FF;
+    width: 50%;
+    text-align: center;
+
+    cursor: default;
+}
+
+
+.container .link {
+
+    width: 150px;
+    height: 70px;
+    text-decoration: none;
+    background-color: #27005D;
+    color: #E4F1FF;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-weight: 400;
+
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .container p {
+
+        font-size: 3rem;
+        width: 100%;
+
+
+    }
+
+
+}

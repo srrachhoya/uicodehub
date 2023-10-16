@@ -1,6 +1,6 @@
 .navbar{
 
-background-color: transparent;
+background-color: #9400FF;
 height: 60px;
 width: 100vw;
 display: flex;
@@ -17,8 +17,23 @@ font-family: 'Montserrat', sans-serif;
 
 .logo{
 
-    color: #e6eeff;
+    color: #E4F1FF;
+    
 }
+
+
+
+.logo h1 {
+        
+        background-color: #FBAB7E;
+        background: -webkit-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+        
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+
 
 
 .links{
@@ -33,7 +48,7 @@ justify-content: space-between;
 
 text-decoration: none;
 color: blueviolet;
-color: #e6eeff;
+color: #E4F1FF;
 font-size: 1.2rem;
 
 }

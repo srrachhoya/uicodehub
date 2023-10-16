@@ -16,7 +16,7 @@ const Navbar = () => {
 
       <div className={styles.logo}>
 
-        <h1>Navbar</h1>
+        <h1>UiCodeHub</h1>
 
 
       </div>
