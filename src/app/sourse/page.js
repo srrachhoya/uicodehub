@@ -76,20 +76,21 @@ const page = () => {
         <div className={styles.container}>
 
             <div className={styles.preview}>
+                
+                <h1 className={r2.className}>How to make A Stylish and Navbar</h1>
 
                 <div className={styles.previewImgContainer}>
 
                     <button>  <AiFillCaretLeft /> </button>
 
 
+                    <div className={styles.imageContainer}>
 
-                    <Image
-                        src="/image/src.jpg"
-                        width={500}
-                        height={500}
-                        alt="Picture of the author"
-                        className='img'
-                    />
+
+                        <img src="https://images.pexels.com/photos/245032/pexels-photo-245032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" srcset="" />
+
+
+                    </div>
 
                     <button>  <AiFillCaretRight /> </button>
 
@@ -110,7 +111,7 @@ const page = () => {
             </div>
 
             <div className={styles.code}>
-                <h1 className={r2.className}>Code</h1>
+                {/* <h1 className={r2.className}>Code</h1> */}
 
                 <div className={styles.item}>
 

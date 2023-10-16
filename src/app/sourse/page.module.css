@@ -1,7 +1,7 @@
 .container {
 
     box-sizing: border-box;
-   
+
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -14,53 +14,22 @@
 
     width: 100vw;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
 }
 
 
-.container .preview .previewImgContainer{
+.container .preview .previewImgContainer {
 
 
 
-display:  flex;
-align-items: center;
-justify-content: space-between;
-width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
 
-
-
-
-
-}
-
-
-.container .preview .previewImgContainer button{
-
-
-
-   background: none;
-   border: none;
-   font-size: larger;
-   padding: 10px;
-   background-color: #ffff;
-    
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   border-radius: 100%;
-   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-   cursor: pointer;
-   color: #9400FF;
-    
-    }
-
-
-
-    .container .preview .previewImgContainer .img {
-  
-width: 90vw !important;
 
 
 
@@ -68,10 +37,56 @@ width: 90vw !important;
 }
 
 
+.container .preview .previewImgContainer button {
 
-.container .preview:first-child{
 
-width: 50%; 
+
+    background: none;
+    border: none;
+    font-size: larger;
+    padding: 10px;
+    background-color: #ffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    color: #9400FF;
+
+}
+
+.container .preview .previewImgContainer .imageContainer {
+
+
+    width: 60vw;
+    height: 70vh;
+    background-color: #ffff;
+
+    padding: 20px;
+    margin: 50px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 10px;
+
+}
+
+.container .preview .previewImgContainer img {
+
+    max-width: 100%;
+
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+.container .preview:first-child {
+
+    width: 50%;
 
 }
 
@@ -141,11 +156,11 @@ width: 50%;
 }
 
 
-.container .preview .slider{
+.container .preview .slider {
 
 
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
 
 }
