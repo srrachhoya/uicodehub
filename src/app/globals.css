@@ -1,7 +1,7 @@
 *{
 
-padding-left: 0%;
-margin: 0%;
+padding-left: 0px;
+margin: 0px;
 box-sizing: border-box;
 
 
@@ -11,6 +11,7 @@ box-sizing: border-box;
 
 body{
 
-  background-color:  #f4f4f5;
+  background-color: #E7E9EB;
+  overflow-x: hidden;
 
 }
